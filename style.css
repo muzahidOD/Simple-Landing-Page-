@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    background: #f1f1ff;
+}
+#full-area{
+    
+}
+#header{
+    height: 450px;
+    background: #0984e3;
+    text-align: center;
+    padding: 20px;
+}
+#header h1{
+    margin-top: 170px;
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+#header p{
+    margin-top: 70px;
+    font-size: 22px;
+    color: #f1f1ff;
+}
+#header #btn{
+    font-size: 18px;
+    margin: 20px;
+    padding: 13px 30px;
+    border-radius: 15px;
+    background: #55efc4;
+    transform: .3s;
+    border: none;
+    cursor: pointer;
+}
+#header #btn:hover{
+    box-shadow: 0px 5px 20px rgb(0,0,0,0.9);
+    background: #6c5ce7;
+    color: #f1f1ff;
+}
+#perfromance{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    margin-top: 50px;
+    justify-content: center;
+
+}
+#perfromance .fast, .easy, .suport{
+    width: 380px;
+    height: 150px;
+    box-shadow: 0px 8px 20px rgb(0,0,0,0.3);
+    text-align: center;
+    border-radius: 15px;
+    transition: .2s;
+}
+
+#perfromance .fast h3 , .easy h3, .suport h3{
+    margin-top: 35px;
+    font-size: 24px;
+}
+#perfromance .fast p , .easy p, .suport p{
+    margin: 15px;
+    font-size: 20px;
+}
+#perfromance .fast:hover{
+    width: 390px;
+}
+#perfromance .easy:hover{
+    width: 390px;
+}
+#perfromance .suport:hover{
+    width: 390px;
+}
+#side{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#side .left-side{
+    width: 40%;
+    margin-left: 200px;
+    font-size: 35px;
+}
+#side .right-side{
+    width: 59%;
+    margin-right: 20px;
+}
+
+#side .right-side h1{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+#side .right-side p{
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+footer{
+    padding: 30px;
+    background: black;
+    text-align: center;
+    color: #f1f1ff;
+    font-size: 20px;
+}
+

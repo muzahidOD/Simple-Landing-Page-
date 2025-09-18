@@ -1,0 +1,38 @@
+@media screen and (max-width: 600px){
+    #header{
+        height: 250px;
+    }
+    #header h1{
+        margin-top: 40px;
+        font-size: 30px;
+    }
+    #header p{
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    #perfromance{
+        height: 600px;
+        display: inline-flex;
+    }
+    #perfromance .fast, .easy, .suport{
+        width: 90%;
+        height: 180px;
+    }
+    #perfromance .fast:hover{
+    width: 91%;
+    }
+    #perfromance .easy:hover{
+    width: 91%;
+    }
+    #perfromance .suport:hover{
+    width: 91%;
+    }
+    #side .left-side{
+        display: none;
+    }  
+    #side .right-side{
+        width: 90%;
+        text-align: center;
+    }
+
+}
